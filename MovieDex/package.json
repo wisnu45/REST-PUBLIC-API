@@ -1,0 +1,37 @@
+{
+  "name": "movie-dex",
+  "version": "1.0.0",
+  "description": "Search Movies from the TMDB and OMDB API!",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --ignore client",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijit-hota/MovieDex.git"
+  },
+  "keywords": [
+    "movie",
+    "search",
+    "node",
+    "react",
+    "hooks",
+    "material-ui"
+  ],
+  "author": "Abhijit Hota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijit-hota/MovieDex/issues"
+  },
+  "homepage": "https://searchmoviedex.herokuapp.com",
+  "devDependencies": {
+    "concurrently": "5.3.0"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "node-fetch": "2.6.1"
+  }
+}

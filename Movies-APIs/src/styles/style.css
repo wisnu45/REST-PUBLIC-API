@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+/* Navbar */
+
+header {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Body */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 80px 50px 0px 50px;
+    overflow: auto;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+
+/* Media Screen for Responsive Defice */
+
+@media screen and (max-width: 950px) {
+    main {
+        padding: 80px 10px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    main {
+        padding: 130px 7px 0px 7px;
+    }
+}

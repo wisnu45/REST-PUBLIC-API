@@ -1,0 +1,9 @@
+body {
+    min-height: 150vh;
+    margin: 0;
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(#e5e5e5, whitesmoke);
+    background-repeat: no-repeat;
+}
